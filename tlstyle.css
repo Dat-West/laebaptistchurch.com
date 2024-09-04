@@ -94,7 +94,7 @@ body{
 	left: 50%;
 	margin-left: -3px;
 	z-index: -1;
-	animation: moveline 6s linear forwards;
+	animation: moveline 7s linear forwards;
 	transition: 1s;
 }
 
@@ -171,6 +171,12 @@ body{
 }
 .container:nth-child(12){
 	animation-delay: 5.5s;
+}
+.container:nth-child(13){
+	animation-delay: 6s;
+}
+.container:nth-child(14){
+	animation-delay: 6.5s;
 }
 
 @media screen and (max-width: 600px){
